@@ -34,3 +34,11 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+.minus{
+  background-color: #ffb0b7
+}
+
+.plus{
+  background-color: #d1e7dd;
+}

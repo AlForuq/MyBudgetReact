@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "./style";
 
-export const Input = ({ width, placeholder }) => {
-  return <Container width={width} placeholder={placeholder} />;
+export const Input = ({type, onChange, value, width, placeholder }) => {
+  return (
+    <Container type={type} value={value} onChange={onChange} width={width} placeholder={placeholder} />
+  );
 };

@@ -18,8 +18,9 @@ export const Title = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
+  gap:20px;
   justify-content: space-between;
-  width: 100px;
+  width: fit-content; /* fit content is used for using Gap, */
 `;
 
 export const Price = styled.div`
@@ -30,6 +31,8 @@ export const Price = styled.div`
   padding: 3px 14px;
   display: flex;
   align-items: center;
+  font-family: sans-serif;
+  font-size:17px;
 `;
 
 export const Remove = styled(Delete)`
